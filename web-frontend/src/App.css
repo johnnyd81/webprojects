@@ -1,0 +1,82 @@
+.App {
+  height: 100vh;
+  background-color: beige;
+}
+
+.header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: rgb(1, 1, 37);
+  text-shadow: 2px 2px gray;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.input1, /* sets the dimensions of my input fields*/
+.input2 {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+
+.button {
+  /* this declaration styles my main button that adds my new project to my backend json file*/
+  display: block;
+  margin-left: 42%;
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: cadetblue;
+}
+
+.listItem {
+  background-color: darkgrey;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  outline: 2px solid black;
+}
+
+.listContainer {
+  /*this declaration removes all default list style types and positions the list item*/
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.title,
+.description {
+  margin-left: 30px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.buttons {
+  margin-left: 42%;
+  margin-top: 5px;
+}
+
+.button1 {
+  color: white;
+  background-color: red;
+  font-weight: 500;
+}
+
+.button2 {
+  color: white;
+  background-color: orange;
+  font-weight: 500;
+}
+
+.button3 {
+  /*this is my update button styles that is different to the ADD project button to create a contrast*/
+  display: block;
+  margin-left: 42%;
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(9, 66, 9);
+}
