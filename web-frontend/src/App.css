@@ -1,82 +1,54 @@
 .App {
   height: 100vh;
   background-color: beige;
+  box-sizing: border-box;
 }
 
 .header {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: rgb(1, 1, 37);
   text-shadow: 2px 2px gray;
   margin-bottom: 45px;
   text-align: center;
 }
 
-.input1, /* sets the dimensions of my input fields*/
-.input2 {
-  width: 70%;
-  margin-bottom: 20px;
-  margin-left: 15%;
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto;
 }
 
-.button {
-  /* this declaration styles my main button that adds my new project to my backend json file*/
-  display: block;
-  margin-left: 42%;
-  margin-top: 15px;
-  color: white;
-  font-weight: 600;
-  border-radius: 10px;
+.project-item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
   padding: 10px;
-  background-color: cadetblue;
+  background-color: lightgray;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 4px;
+  position: relative;
 }
 
-.listItem {
-  background-color: darkgrey;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-  outline: 2px solid black;
+.item-field {
+  margin: 15px 0;
 }
 
-.listContainer {
-  /*this declaration removes all default list style types and positions the list item*/
-  list-style-type: none;
-  margin: 0 auto;
+.actions {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
 }
 
-.title,
-.description {
-  margin-left: 30px;
-  font-style: italic;
-  font-weight: 700;
+.delete {
+  color: red;
+  cursor: pointer;
 }
 
-.buttons {
-  margin-left: 42%;
-  margin-top: 5px;
-}
-
-.button1 {
-  color: white;
-  background-color: red;
-  font-weight: 500;
-}
-
-.button2 {
-  color: white;
-  background-color: orange;
-  font-weight: 500;
-}
-
-.button3 {
-  /*this is my update button styles that is different to the ADD project button to create a contrast*/
-  display: block;
-  margin-left: 42%;
-  margin-top: 15px;
-  color: white;
-  font-weight: 600;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: rgb(9, 66, 9);
+.edit {
+  color: orange;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
 }

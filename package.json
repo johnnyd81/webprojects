@@ -4,17 +4,21 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js --ignore './client/'"
+    "test": "mocha",
+    "start": "concurrently \"nodemon app.js\" \"cd ./web-frontend && npm start\""
   },
   "author": "jonathan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "concurrently": "^8.2.2",
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "helmet": "^5.1.0"
   },
   "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
     "nodemon": "^2.0.16"
   }
 }
