@@ -12,6 +12,7 @@ const fs = require('fs')
 //the line below converts the json format into a javascript object
 const projects = JSON.parse(fs.readFileSync("./projects.json"));
 
+//the function below creates a random id for each project that is created
 const createId = () => {
   return Math.floor(Math.random() * Date.now());
 };
