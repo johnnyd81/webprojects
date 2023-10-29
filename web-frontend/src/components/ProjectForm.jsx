@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
+//the ProjectForm component uses the onSubmit function prop to send the newly created project up to it's parent component
 const ProjectForm = ({ onSubmit }) => {
   const [project, setProject] = useState({ title: "", description: "" });
-
+  
+  //handleChange is called whenever a input is typed into by a user
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
