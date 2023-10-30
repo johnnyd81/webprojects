@@ -26,24 +26,30 @@ const ProjectForm = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="form-box">
       <div>
-        <label>Title: </label>
-        <input
-          type="text"
-          name="title"
-          value={project.title}
-          onChange={handleChange}
-        />
+        <label className="form-field">
+          Title:{" "}
+          <input
+            type="text"
+            name="title"
+            value={project.title}
+            onChange={handleChange}
+            placeholder="project title"
+          />
+        </label>
       </div>
       <div>
-        <label>Description: </label>
-        <input
-          type="text"
-          name="description"
-          value={project.description}
-          onChange={handleChange}
-        />
+        <label className="form-field">
+          Description:{" "}
+          <input
+            type="text"
+            name="description"
+            value={project.description}
+            onChange={handleChange}
+            placeholder="short project description"
+          />
+        </label>
       </div>
       <button type="submit">Submit</button>
     </form>

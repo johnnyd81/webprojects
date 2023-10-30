@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 const express = require("express");
 const router = express.Router();
-const fs = require("fs");
-=======
-const express = require('express')
-const router = express.Router()
 //the file system module is built into node.js
-const fs = require('fs')
->>>>>>> b962e9b200d9e7dc9fcdc7ddeacc17ee4835aa1c
+const fs = require("fs");
 
 //the line below converts the json format into a javascript object
 const projects = JSON.parse(fs.readFileSync("./projects.json"));

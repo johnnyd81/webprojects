@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: beige;
+  background-color: rgb(238, 195, 117);
   box-sizing: border-box;
 }
 
@@ -8,9 +8,45 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: rgb(1, 1, 37);
-  text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px 4px white;
   margin-bottom: 45px;
   text-align: center;
+}
+
+.form-box {
+  width: 310px;
+  background-color: rgb(164, 230, 99);
+  padding: 14px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px black;
+  margin: 0 auto;
+}
+
+.form-field {
+  display: flex;
+  width: 282px;
+  margin: 4px 0;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.update {
+  background-color: lightgray;
+  box-shadow: none;
+}
+
+.update button {
+  margin: 5px 2px 0 2px;
+}
+
+.form-box button {
+  border: none;
+  background-color: rgb(32, 113, 116);
+  padding: 3px;
+  color: white;
+  margin-top: 8px;
+  border-radius: 3px;
 }
 
 .project-box {
@@ -24,12 +60,11 @@
 .project-item {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  padding: 10px;
+  width: 340px;
+  padding: 7px;
   background-color: lightgray;
   box-shadow: 2px 2px 8px black;
   border-radius: 4px;
-  position: relative;
 }
 
 .item-field {

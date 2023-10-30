@@ -28,24 +28,28 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
   };
 
   return (
-    <form onSubmit={handleEditSubmit}>
+    <form onSubmit={handleEditSubmit} className="form-box update">
       <div>
-        <label>Title: </label>
-        <input
-          type="text"
-          name="title"
-          value={editProject.title}
-          onChange={handleChange}
-        />
+        <label className="form-field">
+          Title:{" "}
+          <input
+            type="text"
+            name="title"
+            value={editProject.title}
+            onChange={handleChange}
+          />
+        </label>
       </div>
       <div>
-        <label>Description: </label>
-        <input
-          type="text"
-          name="description"
-          value={editProject.description}
-          onChange={handleChange}
-        />
+        <label className="form-field">
+          Description:{" "}
+          <input
+            type="text"
+            name="description"
+            value={editProject.description}
+            onChange={handleChange}
+          />
+        </label>
       </div>
       <button type="submit">Submit</button>
       <button type="button" onClick={closeEdit}>

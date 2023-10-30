@@ -81,7 +81,6 @@ const ProjectUI = () => {
           }
         });
         setProjects(newProjects);
-        console.log(projects);
       })
       .catch((Error) => console.log("Error:", Error));
   };
