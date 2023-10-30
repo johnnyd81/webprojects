@@ -4,7 +4,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-This runs the app and the app listens for requests on port 8080.
+This runs the app and the app listens for requests on port 8080. The frontend also starts up automatically.
 If you open the browser and navigate to http://localhost:8080/api you will see the contents of my projects.json file.
 This file can be used to store projects by using Postman and various http methods to populate it.
 
