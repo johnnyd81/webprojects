@@ -11,6 +11,7 @@ const createId = () => {
   return Math.floor(Math.random() * Date.now());
 };
 
+//the get route below fetches all the projects added to the projects.json file
 router.get("/api/projects", (req, res) => {
   res
     .status(200)
