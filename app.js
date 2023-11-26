@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
 
+//middleware that shows the path and the method of each request
 app.use((req, res, next) => {
   console.log(req.path, req.method);
   next();
