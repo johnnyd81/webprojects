@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const ProjectForm = ({ onSubmit }) => {
   const [project, setProject] = useState({ title: "", description: "" });
   
-  //handleChange is called whenever a input is typed into by a user
+  //handleChange is called whenever an input is typed into by a user
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
