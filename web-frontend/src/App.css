@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  height: 100vh; /*Sets the height to take up the full height of the viewport*/
   background-color: rgb(238, 195, 117);
   box-sizing: border-box;
 }
