@@ -1,5 +1,5 @@
 import React from 'react'
-//the ProjectUI component contains the entire application components
+//the ProjectUI component renders the entire application
 import ProjectUI from './components/ProjectUI'
 
 function App() {
