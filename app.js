@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 app.use("/", routes);
 app.use(helmet());
-
+//the PORT variable can either be the port number specified in the .env file or 8080
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log("Server is listening on port " + PORT);
