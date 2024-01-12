@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProjectUpdate from "./ProjectUpdate";
 
 const ProjectItem = ({ project, onDelete, onUpdate }) => {
+  //openUpdate is a state variable that controls the opening and closing of the update component
   const [openUpdate, setOpenUpdate] = useState(false);
 
   const handleEditClick = () => {
