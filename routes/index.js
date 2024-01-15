@@ -3,7 +3,7 @@ const router = express.Router();
 //the file system module is built into node.js
 const fs = require("fs");
 
-//the line below converts the json format into a javascript object
+//the line below converts the json format into a javascript object that can be used in the index.js file
 const projects = JSON.parse(fs.readFileSync("./projects.json"));
 
 //the function below creates a random id for each project that is created by the user
