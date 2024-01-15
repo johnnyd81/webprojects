@@ -8,7 +8,7 @@ const ProjectUI = () => {
   //by using the useEffect hook I fetch my projects using the projects variable below
   const [projects, setProjects] = useState([]);
 
-  //the useEffect hook helps me update my UI.
+  //the useEffect hook helps me update my UI by fetching the project data from the backend.
   useEffect(() => {
     const getProjects = async () => {
       const response = await fetch("http://localhost:8080/api/projects");
