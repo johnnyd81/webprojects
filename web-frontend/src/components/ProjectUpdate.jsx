@@ -7,6 +7,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
     description: project.description,
   });
 
+  //any changes to a project is handled by the handleChange function
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
