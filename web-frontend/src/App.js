@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectUI from './components/ProjectUI'
-//main file that renders the entire application
+//the main file that renders the entire application 
 function App() {
   return (
     <div>
