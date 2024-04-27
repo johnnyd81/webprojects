@@ -4,7 +4,7 @@ const routes = require("./routes");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const helmet = require("helmet");
-//the line below is middleware that helps me process the  req.body of the request object
+//the line below is middleware that helps me process the  req.body of incoming requests (the request object)
 app.use(express.json());
 //body-parser middleware helps me extract the entire body portion of the incoming request stream exposed on the req.body object
 app.use(bodyParser.urlencoded({ extended: true }));
