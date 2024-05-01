@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 
+//the ProjectList component contains all the individual ProjectItem components
 const ProjectList = ({ projects, onDelete, onUpdate }) => {
   const renderedProjects = projects.map((project) => {
     return (
