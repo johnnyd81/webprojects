@@ -5,7 +5,8 @@ import ProjectForm from "./ProjectForm";
 import ProjectList from "./ProjectList";
 
 const ProjectUI = () => {
-  //by using the useEffect hook I fetch my projects using the projects variable below
+  //by using the useEffect hook I fetch my projects from the json file in the backend and store them in the projects variable
+  //the projects variable is initially an empty array
   const [projects, setProjects] = useState([]);
 
   //the useEffect hook helps me update my UI by fetching the project data from the backend.
