@@ -26,7 +26,7 @@ const ProjectUI = () => {
   }, []);
 
   //my new projects are sent to my backend json file using the function below.
-  //the route in the fetch method is my POST route
+  //the route in the fetch method is my POST route to add a new project
   const addProject = (newProject) => {
     fetch("http://localhost:8080/api/create", {
       method: "POST",
