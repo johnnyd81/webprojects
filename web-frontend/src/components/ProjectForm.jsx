@@ -17,6 +17,7 @@ const ProjectForm = ({ onSubmit }) => {
     });
   };
 
+  //the handleSubmit function submits the new project
   const handleSubmit = (e) => {
     e.preventDefault();
     if (project.title === "" || project.description === "") {
