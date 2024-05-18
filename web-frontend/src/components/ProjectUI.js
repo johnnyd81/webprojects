@@ -9,7 +9,7 @@ const ProjectUI = () => {
   //the projects variable is initially an empty array
   const [projects, setProjects] = useState([]);
 
-  //the useEffect hook helps me update my UI by fetching the project data from the backend.
+  //the useEffect hook helps me update my UI by fetching the project data from the backend i.e. json file.
   useEffect(() => {
     const getProjects = async () => {
       const response = await fetch("http://localhost:8080/api/projects");
