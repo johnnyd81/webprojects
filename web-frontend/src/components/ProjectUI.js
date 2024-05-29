@@ -85,7 +85,7 @@ const ProjectUI = () => {
       })
       .catch((Error) => console.log("Error:", Error));
   };
-
+  //by using the props system, details and methods of the projects can be shared with the other components
   return (
     <div className="App">
       <Header />
