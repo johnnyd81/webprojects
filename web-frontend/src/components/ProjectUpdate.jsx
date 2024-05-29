@@ -8,6 +8,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
   });
 
   //any changes to a specific project is handled by the handleChange function
+  //name refers to the field being altered and the value is what the user types in the field
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
