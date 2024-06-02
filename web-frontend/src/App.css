@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.form-box { /* custom styles the form the user has to complete */
+.form-box { /* custom styles the form the user has to complete to add a project */
   width: 310px;
   background-color: rgb(164, 230, 99);
   padding: 14px;
