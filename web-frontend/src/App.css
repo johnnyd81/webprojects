@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.header { /* styles the main title of the application*/
+.header { /* styles the main title heading of the application*/
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: rgb(1, 1, 37);
