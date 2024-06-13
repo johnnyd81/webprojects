@@ -1,6 +1,6 @@
 # Webprojects library
 
-This app enables a user to store web application projects. A user can create, delete or edit a stored web application project. This is a fullstack web application that uses the javaScript library react.js for the frontend, node and express.js for the backend and a json file to store the project data entered by a user. The json file acts as a makeshift database for the web application data entered by a user.
+This app enables a user to store custom web application projects. A user can create, delete or edit a stored web application project. This is a fullstack web application that uses the javaScript library react.js for the frontend, node and express.js for the backend and a json file to store the project data entered by a user. The json file acts as a makeshift database for the web application data entered by a user.
 
 ![image](https://github.com/johnnyd81/webprojects/assets/95863021/c1a5ddb1-577e-4351-9df8-e51d3cc9a1b4)
 
