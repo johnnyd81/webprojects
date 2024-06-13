@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 //the ProjectForm component uses the onSubmit function prop to send the newly created project up to it's parent component
+//the parent component then sends the data to the backend
 const ProjectForm = ({ onSubmit }) => {
   const [project, setProject] = useState({ title: "", description: "" });
   
