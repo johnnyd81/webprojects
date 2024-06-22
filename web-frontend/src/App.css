@@ -22,7 +22,7 @@
   margin: 0 auto;
 }
 
-.form-field {
+.form-field { /* custom styles the form field the user has to complete */
   display: flex;
   width: 282px;
   margin: 4px 0;
