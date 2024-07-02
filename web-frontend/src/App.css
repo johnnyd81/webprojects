@@ -57,6 +57,7 @@
   margin: 50px auto;
 }
 
+/*Styles each individual project item*/
 .project-item {
   display: flex;
   flex-direction: column;
