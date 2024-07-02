@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
-  //stateful value that holds the data of each edited project
+  //stateful value that holds the data of each edited project in a object
   const [editProject, setEditProject] = useState({
     title: project.title,
     description: project.description,
