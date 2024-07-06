@@ -19,7 +19,7 @@ const ProjectForm = ({ onSubmit }) => {
     });
   };
 
-  //the handleSubmit function submits the new project
+  //the handleSubmit function submits the new project to the database
   const handleSubmit = (e) => {
     e.preventDefault();
     if (project.title === "" || project.description === "") {
