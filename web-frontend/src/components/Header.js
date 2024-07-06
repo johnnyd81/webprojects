@@ -1,5 +1,5 @@
 import React from 'react'
-//provides the heading for the webpage
+//provides the heading for the application
 const Header = () => {
   return (
     <div className="header">
