@@ -10,7 +10,8 @@ const ProjectForm = ({ onSubmit }) => {
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-
+    
+    //update the project state variable
     setProject((prev) => {
       return {
         ...prev,
