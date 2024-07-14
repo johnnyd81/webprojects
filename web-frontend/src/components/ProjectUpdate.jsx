@@ -23,6 +23,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
   };
 
   const handleEditSubmit = (e) => {
+    //prevent the browser refreshing itself when a form is submiited
     e.preventDefault();
     if (editProject.title === "" || editProject.description === "") {
       alert("Please complete all the fields!!");
