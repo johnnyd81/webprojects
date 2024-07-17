@@ -14,7 +14,7 @@ const ProjectItem = ({ project, onDelete, onUpdate }) => {
     setOpenUpdate(false);
   };
 
-  //update a project and close the modal
+  //update a project and close the update modal
   const updateProject = (id, editedProject) => {
     onUpdate(id, editedProject);
     setOpenUpdate(false);
