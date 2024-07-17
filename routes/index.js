@@ -32,6 +32,7 @@ router.post("/api/create", (req, res) => {
   });
 });
 
+//delete a project
 router.delete("/api/:id", (req, res) => {
   const project = req.params.id * 1; //by multiplying by 1 the id is converted to a number
   for (let i = 0; i < projects.length; i++) {
