@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 //the file system module is built into node.js so it doesn't need to be installed seperately
-//by requiring the fs module it can be used in this file
+//to use the fs module it has to be required in the file using the require method
 const fs = require("fs");
 
 //the line below converts the json format into a javascript object that can be used in the index.js file
