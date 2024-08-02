@@ -10,6 +10,7 @@ const ProjectItem = ({ project, onDelete, onUpdate }) => {
   };
 
   //the openUpdate boolean value decides whether the edit modal is present or not
+  //if it's true the modal is visible and removed when it is false
   const handleEditClose = () => {
     setOpenUpdate(false);
   };
