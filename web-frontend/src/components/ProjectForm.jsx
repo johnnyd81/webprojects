@@ -11,7 +11,7 @@ const ProjectForm = ({ onSubmit }) => {
     const name = e.target.name;
     const value = e.target.value;
     
-    //update the project state variable
+    //update the project state variable by taking all the previous project data and adding on the new project data
     setProject((prev) => {
       return {
         ...prev,
