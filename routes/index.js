@@ -20,6 +20,7 @@ router.get("/api/projects", (req, res) => {
 });
 
 router.post("/api/create", (req, res) => {
+  //creates a new unique id for the new project
   const newId = createId();
   //the line below creates a new object
   const newProject = Object.assign({ id: newId }, req.body);
