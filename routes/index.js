@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+
 //the file system module is built into node.js so it doesn't need to be installed seperately
 //to use the fs module it has to be required in the file using the require method
 const fs = require("fs");
@@ -19,6 +20,7 @@ router.get("/api/projects", (req, res) => {
     .json({ status: "success", result: projects.length, data: { projects } });
 });
 
+//adds a new project to the project.json file
 router.post("/api/create", (req, res) => {
   //creates a new unique id for the new project
   const newId = createId();
