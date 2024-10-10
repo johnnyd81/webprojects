@@ -21,7 +21,7 @@ const ProjectItem = ({ project, onDelete, onUpdate }) => {
     setOpenUpdate(false);
   };
 
-  //content variable contains the html that is displayed 
+  //the content variable contains the html that is rendered 
   let content = (
     <div>
       <div className="item-field">
