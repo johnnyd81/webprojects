@@ -9,6 +9,7 @@ app.use(express.json());
 //body-parser middleware helps me extract the entire body portion of the incoming request stream exposed on the req.body object
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+//middleware to provide cross origin resource sharing
 app.use(cors());
 
 //middleware that shows the path and the method of each request from the user
@@ -18,6 +19,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/", routes);
+
 app.use(helmet());
 //the PORT variable can either be the port number specified in the .env file or 8080
 const PORT = process.env.PORT || 8080;
