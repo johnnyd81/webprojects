@@ -1,4 +1,5 @@
 const express = require("express");
+//import express router to create get, post, put and delete routes
 const router = express.Router();
 
 //the file system module is built into node.js so it doesn't need to be installed seperately
