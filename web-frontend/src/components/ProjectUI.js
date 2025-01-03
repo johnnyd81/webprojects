@@ -38,6 +38,7 @@ const ProjectUI = () => {
       .then((res) => res.json())
       .then((json) => {
         console.log("New project successfully added");
+        //adds the new project to the projects array
         setProjects((prev) => [...prev, json.newProject]);
       })
       .catch((Error) => console.log("Error:", Error));
