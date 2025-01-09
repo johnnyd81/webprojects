@@ -37,6 +37,7 @@
 }
 
 .update button {
+  /* add margin around the update button */
   margin: 5px 2px 0 2px;
 }
 
