@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectUI from './components/ProjectUI'
 
-//this is the main file that renders the entire application i.e. the ProjectUI component
+//this is the main file that renders the entire application i.e. the ProjectUI component that contains all the component files
 //this file is kept minimal as it is the entry point of the web application
 
 function App() {
