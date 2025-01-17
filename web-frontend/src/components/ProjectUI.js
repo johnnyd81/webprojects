@@ -23,7 +23,7 @@ const ProjectUI = () => {
       }
     };
     getProjects();
-  }, []);
+  }, []); // the empty array means the useEffect hook is run only once when the page loads
 
   //my new projects are sent to my backend json file using the function below.
   //the route in the fetch method is my POST route to add a new project to the project.json file
