@@ -12,7 +12,7 @@ const ProjectForm = ({ onSubmit }) => {
     const name = e.target.name;
     const value = e.target.value;
     
-    //update the project state variable by taking all the previous project data and adding on the new project data
+    //update the project state variable by taking all the existing project data and adding on the new project data
     // since the project stateful variable is an object the name acts as the key 
     setProject((prev) => {
       return {
