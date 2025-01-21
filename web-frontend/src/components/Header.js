@@ -1,6 +1,6 @@
 import React from 'react'
 
-//the header component that displays the title heading for the application
+//the header component that displays the main heading for the application
 const Header = () => {
   return (
     <div className="header">
