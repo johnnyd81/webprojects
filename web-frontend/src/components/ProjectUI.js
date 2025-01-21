@@ -15,6 +15,7 @@ const ProjectUI = () => {
       const response = await fetch("http://localhost:8080/api/projects");
       const json = await response.json();
 
+      //if the response is successful, update the projects variable with the projects fetched from the backend
       if (response.ok) {
         setProjects(json.data.projects);
         console.log(json);
