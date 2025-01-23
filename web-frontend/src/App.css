@@ -31,7 +31,7 @@
   font-weight: 700;
 }
 
-.update {
+.update { /* style the update form */
   background-color: lightgray;
   box-shadow: none;
 }
