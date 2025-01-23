@@ -7,7 +7,7 @@ const ProjectForm = ({ onSubmit }) => {
   const [project, setProject] = useState({ title: "", description: "" });
   
   //handleChange is called whenever an input field is typed into by a user
-  //the e parameter represents the event object that contains target.name and target.value properties
+  //the e parameter represents the event object that contains the target.name and target.value properties
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
