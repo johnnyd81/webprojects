@@ -26,6 +26,7 @@ const ProjectForm = ({ onSubmit }) => {
   const handleSubmit = (e) => {
     //prevent the browser from refreshing itself when the project is submitted by calling the preventDefault method
     e.preventDefault();
+    //the if statement makes sure that the title and description are not empty by alerting the user
     if (project.title === "" || project.description === "") {
       alert("Please complete all the fields!!");
     } else {
