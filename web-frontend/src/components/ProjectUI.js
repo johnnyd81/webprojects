@@ -46,12 +46,12 @@ const ProjectUI = () => {
       .catch((Error) => console.log("Error:", Error));
   };
 
-  //the function below deletes the project with the matching id
+  //the function below deletes the project if the id matches
   const deleteProject = (id) => {
     fetch("http://localhost:8080/api/" + id, {
       method: "DELETE",
       headers: {
-        "Content-type": "application/json",
+        "Content-type": "application/json"
       },
     })
       .then((res) => res.json())
