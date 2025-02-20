@@ -3,7 +3,7 @@ import React, { useState } from "react";
 //the ProjectForm component uses the onSubmit function prop to send the newly created project up to it's parent component
 //the parent component then sends the data to the backend
 const ProjectForm = ({ onSubmit }) => {
-  //the stateful project object is initially empty 
+  //the stateful project object is empty at the start
   const [project, setProject] = useState({ title: "", description: "" });
   
   //handleChange is called whenever an input field is typed into by a user
