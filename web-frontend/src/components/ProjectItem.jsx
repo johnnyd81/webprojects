@@ -19,7 +19,7 @@ const ProjectItem = ({ project, onDelete, onUpdate }) => {
   //update a specific project and close the update modal by setting the openUpdate value to false
   const updateProject = (id, editedProject) => {
     onUpdate(id, editedProject);
-    setOpenUpdate(false);
+    setOpenUpdate(false); // closes the update modal
   };
 
   //the content variable contains the html that is rendered on the webpage
