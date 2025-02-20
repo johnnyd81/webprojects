@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem"; // import the ProjectItem file
 
-//the ProjectList component contains all the individual ProjectItem components that are present in the database
+//the ProjectList component contains all the individual ProjectItem components that are available in the database
 //the props object contains the delete and edit methods as well as the data for each individual project
 const ProjectList = ({ projects, onDelete, onUpdate }) => {
   const renderedProjects = projects.map((project) => {
