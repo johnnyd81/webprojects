@@ -3,7 +3,7 @@ import ProjectUpdate from "./ProjectUpdate";
 
 const ProjectItem = ({ project, onDelete, onUpdate }) => {
   //openUpdate is a state variable that controls the opening and closing of the update component, that updates a web project
-  const [openUpdate, setOpenUpdate] = useState(false);
+  const [openUpdate, setOpenUpdate] = useState(false); // it is false initially meaning the modal is closed
   
   //opens the update modal if the edit button is clicked for that specific ProjectItem
   const handleEditClick = () => {
