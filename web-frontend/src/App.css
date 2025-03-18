@@ -4,7 +4,7 @@
   box-sizing: border-box;/* sets how elements in the app should be sized */
 }
 
-.header { /* styles the main title heading of the application */
+.header { /* styles the main title heading of the app */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: rgb(1, 1, 37);
