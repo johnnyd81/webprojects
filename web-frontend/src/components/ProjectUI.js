@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./Header";
 import "../App.css";
-// import the required components
+// import the required components to make up the webpage
 import ProjectForm from "./ProjectForm";
 import ProjectList from "./ProjectList";
 
