@@ -7,7 +7,7 @@
 .header { /* styles the main title heading of the app */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: rgb(1, 1, 37);
+  color: rgb(1, 1, 37);/*set a custom color*/
   text-shadow: 2px 2px 4px white;
   margin-bottom: 45px;
   text-align: center;
