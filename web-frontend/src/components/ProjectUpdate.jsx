@@ -29,7 +29,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
       //the alert message will be shown if the title or the description is empty
       alert("Please complete all the fields!!");
     } else {
-      //update the project
+      //update the project that matches the project.id
       handleUpdate(project.id, editProject);
     }
   };
