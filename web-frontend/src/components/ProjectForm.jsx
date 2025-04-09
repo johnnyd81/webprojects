@@ -24,7 +24,7 @@ const ProjectForm = ({ onSubmit }) => {
 
   //the handleSubmit function submits the new project that will be stored in the database
   const handleSubmit = (e) => {
-    //prevent the browser from refreshing itself when the project is submitted by calling the preventDefault method
+    //prevent the browser from refreshing itself when the project is submitted by calling the preventDefault method on the event object
     e.preventDefault();
     //the if statement makes sure that the title and description are not empty by alerting the user to complete them
     if (project.title === "" || project.description === "") {
