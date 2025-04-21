@@ -26,7 +26,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
     //prevents the browser from refreshing itself when the form is submitted
     e.preventDefault();
     if (editProject.title === "" || editProject.description === "") {
-      //the alert message will be shown if the title or the description is empty
+      //the alert message will be shown if the title or the description fields are empty
       alert("Please complete all the fields!!");
     } else {
       //update the project that matches the project.id
