@@ -7,7 +7,7 @@ const ProjectItem = ({ project, onDelete, onUpdate }) => {
   
   //opens the update modal if the edit button is clicked for that specific ProjectItem element
   const handleEditClick = () => {
-    setOpenUpdate(true); // opens the update project modal
+    setOpenUpdate(true); // opens the modal to update the project
   };
 
   //the openUpdate boolean value decides whether the edit modal is rendered or not
