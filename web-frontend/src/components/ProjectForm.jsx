@@ -22,7 +22,7 @@ const ProjectForm = ({ onSubmit }) => {
     });
   };
 
-  //the handleSubmit function submits the new project that will be stored in the database
+  //the handleSubmit function submits the new project data that will be stored in the database
   const handleSubmit = (e) => {
     //prevent the browser from refreshing itself when the project is submitted by calling the preventDefault method on the event object
     e.preventDefault();
