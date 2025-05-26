@@ -23,7 +23,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
   };
 
   const handleEditSubmit = (e) => {
-    //prevents the browser from refreshing itself when the form is submitted
+    //prevents the browser from refreshing itself when the form is submitted by the user
     e.preventDefault();
     if (editProject.title === "" || editProject.description === "") {
       //the alert message will be shown if the title or the description fields are empty
