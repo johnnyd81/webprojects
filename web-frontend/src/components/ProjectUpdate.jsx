@@ -13,7 +13,7 @@ const ProjectUpdate = ({ project, handleUpdate, closeEdit }) => {
     const name = e.target.name;
     const value = e.target.value;
 
-    //update the editProject variable which is an object initially
+    //update the editProject variable which is originally an object
     setEditProject((prev) => {
       return {
         ...prev,
