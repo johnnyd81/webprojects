@@ -24,7 +24,7 @@ const ProjectUI = () => {
         console.log("Error in fetching project data!!");
       }
     };
-    getProjects(); //invoke the getProjects function
+    getProjects(); //invoke the getProjects function to fetch the projects
   }, []); // the empty array means the useEffect hook is run only once when the page loads
 
   //my new projects are sent to my backend json file using the function below.
