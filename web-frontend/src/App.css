@@ -1,5 +1,5 @@
 .App {
-  height: 100vh; /*Sets the height to take up the full height of the user's viewport*/
+  height: 100vh; /*Sets the height to take up the full height of the user's viewport i.e. webpage*/
   background-color: rgb(238, 195, 117); /* sets the background-color for the entire app*/
   box-sizing: border-box;/* sets how elements in the app should be sized */
 }
